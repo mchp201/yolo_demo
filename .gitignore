@@ -1,11 +1,16 @@
 
 # 排除下载文件
 yolo11/bus.jpg
+yolo11/zidane.jpg
 
 # 排除运行结果
 yolo11/runs
 yolo11/result.jpg
+yolo11/results0.jpg
+yolo11/results1.jpg
 
 # 排除模型文件
 yolo11/yolo11*
 
+# 排除视频文件
+video
