@@ -1,6 +1,21 @@
 # yolo_demo
 YOLO Practice Exercises
 
-如果使用conda构建python环境，优先使用conda安装依赖。
-YOLO11 实测使用numpy 1.26.2 可以运行。
-conda install -y numpy=1.26.2
+一、环境的安装：
+
+1. 通过conda安装Python虚拟环境：
+``` bash
+conda create -n yolo python==3.12
+```
+2. 切换环境
+``` bash
+conda activate yolo
+```
+3. 将环境中的numpy降级至"1.x.x"的版本
+``` bash
+pip install "numpy<2"
+```
+4. 安装pytorch、ultralytics包
+``` bash
+pip3 install torch torchvision ultralytics
+```
